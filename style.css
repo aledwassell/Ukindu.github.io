@@ -23,7 +23,7 @@ h1 {
 
 
 }
-h2{
+h2, h3, h4{
 	float:right;
 	display:inline;
 	border: 1px solid black;
@@ -36,10 +36,18 @@ h2{
 	color: blue;
 	text-align: center;
 	font-size: 125%
-	
-
 }
-h3{
+h3 {
+	color: red;
+}
+h4 {
+	color: blue;
+}
+
+// if you ommit both the styles below and just keep the font color, it will clean up your code.
+//above I put 'h2, h3, h4 {/*you styles*/}' makes it way easier to read. hope I can help
+
+/*h3{
 	float:right;
 	display:inline;
 	border: 1px solid black;
@@ -70,7 +78,7 @@ h4{
 	font-size: 125%
 	
 
-}
+}*/
 
 
 #bk{
