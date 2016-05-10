@@ -85,6 +85,7 @@ h4{
 	background-color: brown;
 }
 .section {   
+  background-color:gray;
   border: 1px solid black;    
   position: relative;    
   height: 170px;    
